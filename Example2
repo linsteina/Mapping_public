@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "name": "The University of Auckland",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-ZJkguIJv",
+  "defaultPerspective": null,
+  "attributeRelevance": {
+    "assessment": [],
+    "learning-outcome": [
+      "Verb_inKnowledge",
+      "Verb_inLO",
+      "Object_inLO"
+    ],
+    "undefined": [],
+    "capabilities-in-stages": [
+      "Capability in LOs",
+      "Stage",
+      "Programme"
+    ],
+    "capability": [
+      "Short name",
+      "Details",
+      "Programme"
+    ],
+    "theme": [
+      "Short name",
+      "Name"
+    ],
+    "subguidecourse": [],
+    "guidecourse": [],
+    "subguide": [],
+    "guide": [],
+    "class": [
+      "Course name",
+      "Core or selective",
+      "Subject",
+      "Programme",
+      "School",
+      "Semester",
+      "Stage",
+      "Enrollment requirement description",
+      "Prerequisite courses",
+      "Corequisites",
+      "Restrictions",
+      "Learning Outcomes",
+      "Capability in LOs"
+    ]
+  },
+  "attributes": [
+    {
+      "_id": "attr-svP4OMdr",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Family",
+        "Cofounder"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-QOCTY96B",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-AiDwdC2z",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Cofounder",
+        "Startup"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-MkpzjSuN",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-wFgTh1jc",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-gU8MzZIr",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "location",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "website",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [],
+  "connections": [],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-ZJkguIJv",
+      "name": "BA",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-ZmKFRzz9",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [],
+      "connections": [],
+      "loops": []
+    },
+    {
+      "_id": "map-sOxF3UNG",
+      "name": "Importing JSON",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://raw.githubusercontent.com/linsteina/Mapping_public/master/Example1.json",
+      "defaultPerspective": "pers-mdzICUYt",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "undirected"
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-ZmKFRzz9",
+      "name": "Graduate Profile",
+      "style": "@controls {\n  bottom-right {\n    image {\n      src: \"https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/University_of_Auckland.svg/1280px-University_of_Auckland.svg.png\";\n      height: 70;\n    }\n  }\n\n  bottom-left {\n    color-legend {\n      color {\n        value: #4daf4a;\n        label: \"Communication\";\n      }\n\n      color {\n        value: #fddbc7;\n        label: \"Drama\";\n      }\n\n      color {\n        value: #377eb8;\n        label: \"English\";\n      }\n\n      color {\n        value: #cab2d6;\n        label: \"Media, Film and Televisions\";\n      }\n\n      color {\n        value: #ff7f00;\n        label: \"Māori Studies\";\n      }\n\n      color {\n        value: #ffff33;\n        label: \"Sociology\";\n      }\n\n      color {\n        value: #3eaba0;\n        label: \"Pacific Studies\";\n      }\n\n      color {\n        value: #a65628;\n        label: \"Politics and International Relations\";\n      }\n\n      color {\n        value: #e41a1c;\n        label: \"Core courses\";\n      }\n    }\n  }\n\n  bottom {\n    filter {\n      as: button;\n      target: Capability, Theme, Capabilities-in-stages, Learning-Outcome, Assessment, Guide, SubGuide, Learning-outcome-description, Moreinfo;\n      multiple: true;\n      placeholder: \"Views\";\n\n      option {\n        label: \"Theme\";\n        selector: Theme, [\"Area\"=\"Themes\"];\n      }\n\n      option {\n        label: \"Capability\";\n        selector: Capability, Capabilities-in-stages, [\"Area\"=\"Capabilities\"];\n      }\n\n      option {\n        label: \"Learning Outcome\";\n        selector: Learning-Outcome, [\"Area\"=\"Learning outcome\"];\n      }\n\n      option {\n        label: \"Assessments\";\n        selector: Assessment, [\"Area\"=\"Assessment\"];\n      }\n\n      option {\n        label: \"CP details\";\n        selector: Moreinfo;\n      }\n\n    \n    }\n  }\n\n}\n\n@settings {\n  layout: scatter;\n  layout-grid: true;\n  layout-x: \"column\";\n  layout-y: \"row-.5\";\n  layout-x-multiplier: 2.5;\n  layout-y-multiplier: 1;\n  layout-guide-width: 1;\n  layout-guide-color: #ccc;\n  layout-guides: x(0) y(0) circle(100, 100);\n  text-overflow: auto;\n  element-size: 5;\n  connection-curvature: 0.12;\n  connection-size: 1;\n  element-shape: rectangle;\n  arrow-min-width: 0;\n  arrow-min-height: 0;\n  arrow-width: 5;\n  arrow-height: 5;\n  include: guide, subguide, guidecourse, subguidecourse, theme, capability, capabilities-in-stages, learning-outcome, assessment, class, moreinfo, prerequisite-connection, loop;\n  quality: best;\n  ignore-orphans: false;\n  pointer-events: elements;\n}\n\nelement[\"element type\"=\"guide\"] {\n  text-align: center;\n  font-color: #333;\n  text-overflow: wrap 3;\n  color: #fcfcfa;\n  font-weight: bold;\n}\n\nelement[\"element type\"=\"subguide\"] {\n  text-align: center;\n  font-color: #333;\n  text-overflow: wrap 3;\n  color: #fcfcfa;\n}\n\nelement[\"element type\"=\"guide_course\"] {\n  text-align: center;\n  font-color: #333;\n  text-overflow: wrap 3;\n  color: #fcfcfa;\n  font-weight: bold;\n}\n\nelement[\"element type\"=\"subguide_course\"] {\n  text-align: center;\n  font-color: #333;\n  text-overflow: wrap 3;\n  color: #fcfcfa;\n}\n\nelement[\"element type\"=\"class\"] {\n  label: \"{{Label}}\";\n  text-align: bottom;\n  text-overflow: auto;\n  opacity: 0.8;\n  size: 15;\n  font-size: 14;\n  font-weight: bold;\n  margin: 3;\n}\n\n/* Communication */\nelement[\"element type\"=\"class\"][\"subject\"=\"Communication\"] {\n  color: #4daf4a;\n}\n\nelement[\"element type\"=\"class\"][\"subject\"=\"Drama\"] {\n  color: #fddbc7;\n}\n\nelement[\"element type\"=\"class\"][\"subject\"=\"English\"] {\n  color: #377eb8;\n}\n\nelement[\"element type\"=\"class\"][\"subject\"=\"Media, Film and Television\"] {\n  color: #cab2d6;\n}\n\nelement[\"element type\"=\"class\"][\"subject\"=\"Māori Studies\"] {\n  color: #ff7f00;\n}\n\nelement[\"element type\"=\"class\"][\"subject\"=\"sociology\"] {\n  color: #ffff33;\n}\n\nelement[\"element type\"=\"class\"][\"subject\"=\"Pacific Studies\"] {\n  color: #3eaba0;\n}\n\nelement[\"element type\"=\"class\"][\"subject\"=\"Politics and International Relations\"] {\n  color: #a65628;\n}\n\nelement[\"element type\"=\"theme\"] {\n  label: \"{{short name}}\";\n  text-align: bottom;\n  font-color: #333;\n  font-size: 15;\n  text-overflow: wrap 2;\n  color: #fcfcfa;\n  margin: 5;\n  font-weight: bold;\n}\n\nelement[\"element type\"=\"capability\"] {\n  text-align: bottom;\n  font-color: #333;\n  font-size: 14;\n  text-overflow: wrap 20;\n  color: #fcfcfa;\n  margin: 5;\n}\n\nelement[\"element type\"=\"Capabilities in stages\"] {\n  label: \"{{PercentageInStage}}\";\n  text-overflow: auto;\n  size: 15;\n  font-size: 14;\n}\n\nelement[\"element type\"=\"assessment\"] {\n  label: \"{{label}}\";\n  text-overflow: wrap 5;\n  text-align: bottom;\n  font-color: #141414;\n  color: #fcfcfa;\n  size: 10;\n  font-size: 14;\n}\n\nelement[\"element type\"=\"assessment type\"] {\n  text-align: center;\n  font-color: #333;\n  font-size: 15;\n  text-overflow: wrap 50;\n  color: #fcfcfa;\n  margin: 50;\n}\n\nelement[\"element type\"=\"weighting\"] {\n  text-align: center;\n  color: #fcfcfa;\n}\n\nelement[\"element type\"=\"Learning outcome description\"] {\n  font-size: 14;\n  text-overflow: wrap 10;\n  text-align: center;\n  font-color: #141414;\n  size: 50;\n  color: #fcfcfa;\n}\n\nelement[\"element type\"=\"learning outcome\"] {\n  label: \"{{Verb_inKnowledge}}\";\n  text-align: bottom;\n  font-color: #333;\n  font-size: 20;\n  text-overflow: wrap 20;\n  color: #a1dab4;\n  size: 10;\n}\n\nelement[\"element type\"=\"Moreinfo\"] {\n  label: \"{{Details}}\";\n  text-align: center;\n  font-color: #333;\n  font-size: 14;\n  text-overflow: wrap 20;\n  color: #fcfcfa;\n  margin: 30;\n  size: 0.1;\n}\n\nconnection[\"connection type\"=\"capability\"] {\n  curvature: 0;\n  arrow-color: red;\n}\n\nconnection[\"connection type\"=\"theme\"] {\n  curvature: 0;\n  size: 2;\n  arrow-weight: 0.1;\n  arrow-visibility: hidden;\n}\n\nconnection[\"connection type\"=\"learning outcome\"] {\n  size: 1;\n  curvature: 0.2;\n  arrow-color: green;\n  arrow-width: 5;\n  arrow-height: 5;\n}\n\nconnection[\"connection type\"=\"prerequisite\"] {\n  curvature: 0;\n  size: 1;\n  arrow-color: red;\n  visibility: visible;\n  arrow-visibility: visible;\n}\n\nconnection[\"connection type\"=\"Restriction\"] {\n  curvature: 0;\n  size: 1;\n  arrow-visibility: visible;\n  visibility: visible;\n  arrow-color: red;\n  color: #fcfcfa;\n}\n\nconnection[\"connection type\"=\"LO_Theme\"] {\n  curvature: 0;\n  arrow-visibility: hidden;\n  visibility: hidden;\n}\n\nconnection[\"connection type\"=\"assessment\"] {\n  curvature: 0;\n}\n\nconnection[\"connection type\"=\"assessment type\"] {\n  curvature: 0;\n  arrow-weight: 0.1;\n  arrow-color: red;\n  visibility: hidden;\n}\n\nconnection[\"connection type\"=\"Learning outcome description\"] {\n  curvature: 0;\n  arrow-weight: 0.1;\n  arrow-color: red;\n  visibility: hidden;\n}\n\nconnection[\"connection type\"=\"Capability\"] {\n  curvature: 0;\n  arrow-visibility: hidden;\n  visibility: hidden;\n}\n\nconnection[\"connection type\"=\"Capability_courses\"] {\n  curvature: 0;\n  arrow-visibility: hidden;\n  visibility: hidden;\n}\n\nelement[\"visibility\"=\"0\"] {\n  visibility: hidden;\n}\n\nelement[\"core or selective\"=\"core\"] {\n  image-url: url(https://raw.githubusercontent.com/linsteina/Mapping_public/master/Core.png);\n}\n\nelement[\"element type\"=\"Assessment\"] {\n  color: scale(\"usage\", #e0edf9, #82bbdb);\n}\n\nelement[\"element type\"=\"capabilities in stages\"] {\n  color: scale(\"coverageinstage\", #ffffcc, #fec05a);\n}\n\nelement[\"element type\"=\"Capability\"] {\n  color: scale(\"inlo\", #dfdeed, #51218e);\n  size: 15;\n}\n\nelement[\"element type\"=\"Theme\"] {\n  color: scale(\"emphasisincourse\", #cbdff1, #084d96);\n  size: 14;\n}\n\nelement[\"element type\"=\"Moreinfo\"] {\n  label: \"{{Details}}\";\n  text-align: center;\n  font-color: #333;\n  font-size: 14;\n  text-overflow: wrap 20;\n  color: #fcfcfa;\n  margin: 30;\n  size: 0.1;\n}\n\nelement[\"element type\"=\"capabilities in stages\"] {\n  color: scale(\"coverageinstage\", #ceecc7, #19873f);\n}\n\nelement[\"element type\"=\"Learning Outcome\"] {\n  color: scale(\"color_dimension\", #cbdff1, #084d96);\n}\n\n"
+    },
+    {
+      "_id": "pers-mdzICUYt",
+      "name": "Importing JSON",
+      "style": "@settings {\n  template: custom;\n}\n\n"
+    }
+  ]
+}
